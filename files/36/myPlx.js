@@ -1,4 +1,4 @@
-var _g_ver_blAppPlx = "v0.1.152";
+var _g_ver_blAppPlx = "v0.1.153";
 
 function _plxJobClass()
 { 
@@ -17,12 +17,12 @@ function _plxJobClass()
 	}
 	this.blrAboutPlx= function(b,d){		
 		var s = "blrAboutPlx<br>"; 
-		s += "<a target='_blank' href='https://github.com/littleflute/parks/edit/master/myPlx.js'"
+		s += "<a target='_blank' href='https://github.com/littleflute/parks/files/36/edit/master/myPlx.js'"
 		s += " style='color:blue;'";
 		s +=">";
 		s += " myPlx.js*  ";
 		s += "</a>"; 
-		s += "<a target='_blank'  href='https://littleflute.github.io/parks/myPlx.js'";
+		s += "<a target='_blank'  href='https://littleflute.github.io/parks/files/36/myPlx.js'";
 		s += " style='color:yellow;'";
 		s +=">";
 		s += " myPlx.js ";
