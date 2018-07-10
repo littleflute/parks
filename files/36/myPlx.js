@@ -1,8 +1,8 @@
-var _g_ver_blAppPlx = "v0.1.151";
+var _g_ver_blAppPlx = "v0.1.152";
 
 function _plxJobClass()
 { 
-	this.blrIssue17 = function(b,d){
+	this.blr_englishIssue17 = function(b,d){
 		if(!d.v){
 			d.v = blo0.blDiv(d,d.id+"v","v",blGrey[5]);
 			d.v.innerHTML = d.id; 
@@ -17,15 +17,15 @@ function _plxJobClass()
 	}
 	this.blrAboutPlx= function(b,d){		
 		var s = "blrAboutPlx<br>"; 
-		s += "<a target='_blank' href='https://github.com/littleflute/english/edit/master/blAppPlx.js'"
+		s += "<a target='_blank' href='https://github.com/littleflute/parks/edit/master/myPlx.js'"
 		s += " style='color:blue;'";
 		s +=">";
-		s += " blAppPlx.js*  ";
+		s += " myPlx.js*  ";
 		s += "</a>"; 
-		s += "<a target='_blank'  href='https://littleflute.github.io/english/blAppPlx.js'";
+		s += "<a target='_blank'  href='https://littleflute.github.io/parks/myPlx.js'";
 		s += " style='color:yellow;'";
 		s +=">";
-		s += " blAppPlx.js ";
+		s += " myPlx.js ";
 		s += "</a>"; 
 		d.innerHTML = s;
 		_on_off_div(b,d);
